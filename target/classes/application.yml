@@ -1,9 +1,9 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/, http://localhost:8760/eureka/
 server:
-  port: 8888
+  port: 9999
 
 spring:
   cloud:
@@ -11,8 +11,8 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/xiaolei002/myRepository
-          searchPaths: spring-cloud/helloworldConfig/
+          uri: https://github.com/xiaolei002/springcloud
+          searchPaths: src/main/resources
           username: xiaolei002
           password: guoshanglei123
   application:
