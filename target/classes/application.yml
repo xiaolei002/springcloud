@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/xiaolei002/myRepository
+          searchPaths: spring-cloud/helloworldConfig/
+          username: xiaolei002
+          password: guoshanglei123
+  application:
+    name: config-server
