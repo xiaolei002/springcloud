@@ -11,8 +11,8 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/xiaolei002/myRepository
-          searchPaths: spring-cloud/helloworldConfig/
+          uri: https://github.com/xiaolei002/springcloud
+          searchPaths: src/main/resources
           username: xiaolei002
           password: guoshanglei123
   application:
