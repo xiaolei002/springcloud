@@ -1,0 +1,2 @@
+#所有环境下都加载
+spring.application.name=config-client
