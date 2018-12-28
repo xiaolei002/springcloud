@@ -11,7 +11,7 @@ spring:
         git:
           uri: https://github.com/xiaolei002/springcloud
           #相对路径
-          searchPaths: src/main/resources/config
+          searchPaths: src/main/config
           username: xiaolei002
           password: guoshanglei123
   application:
